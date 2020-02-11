@@ -1,0 +1,44 @@
+.center {
+	margin: auto;
+	padding: auto;
+	text-align: center;
+}
+.bg-black{
+	background-color: #000;
+}
+.text-black{
+	color: #000;
+}
+.site-main .project-area{
+    padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button{
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project > .title h4{
+    font: normal 700 25px/12px var(--roboto);
+}
+
+.site-main .project-area .grid .our-project .img a:hover img{
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+.gap{
+	padding-top: 10vh;
+	padding-bottom: 15vh;
+	margin-top: 10vh;
+	margin-top: 5vh;
+}
+
+#map{margin: auto;
+	height: 20vh;
+	width: 60vw;
+}
